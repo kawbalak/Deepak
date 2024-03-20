@@ -86,27 +86,27 @@ def Run_Lab_1(D,SaveFile):
     FA['Price_Book_AP'] 
     ['ICitp']
     
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/')
-#Dall=LoadData('All')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2//ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
-#Dall=LoadData('All')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
-#Dall= LoadData ('ALL')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
-#Dall= LoadData ('ALL')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#Dall=LoadData('All')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#Dall = LoadData('All')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#Dall = LoadData('All')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-#Dall = LoadData('All')
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/')
+Dall=LoadData('All')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2//ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
+Dall=LoadData('All')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
+Dall= LoadData ('ALL')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
+Dall= LoadData ('ALL')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+Dall=LoadData('All')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+Dall = LoadData('All')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+Dall = LoadData('All')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+Dall = LoadData('All')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 
 ###########################################################################################
 import ManageData as md #loads and saves data
@@ -124,7 +124,7 @@ def LoadData(CapRange):
     Success = md.saveproject(D,SaveFile+'.pkl') #Saves the loaded data to a pickel file
     D = md.loadproject(SaveFile+'.pkl')
     return D
-    #runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+  runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 ##############################################################################################################
 ## ---(Mon Nov 20 16:23:19 2023)---
 import pickle as pk
@@ -302,7 +302,7 @@ def loadsavedfile(SaveFile):
     F = pk.load(file)
     print('Loaded from ' + SaveFile)
     return F
-#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 #############################################################################################################################################
 import ManageData as md #loads and saves data
 import TransformData as td #Cleans and transforms data
@@ -383,7 +383,7 @@ def Run_Lab_1(D,SaveFile):
     
     FA['Price_Book_AP']['ICitp']
 
-'''            ([6.66104644e-01, 1.14284260e-01, 3.37005764e-02, 1.11534910e-01,
+          ([6.66104644e-01, 1.14284260e-01, 3.37005764e-02, 1.11534910e-01,
             1.89128057e-01, 1.43831658e-01, 4.68567515e-02, 1.69735981e-01,
             5.93813630e-02, 2.44547252e-03, 6.27103942e-02, 2.06584046e-01,
             1.18828626e-01, 4.27882483e-01, 3.28990942e-04, 5.73740851e-02,
@@ -859,4 +859,3 @@ R['EW_BenchMark_p']                 =   np.nanmean(Returns_AP,axis=0)#equaly wei
 
 FA['ICitp'].keys()
     
-'''
