@@ -1,7 +1,9 @@
 import ManageData as md #loads and saves data
+#from TESTCASE.OptinalWeightsGA import Returns_AP
 import TransformData as td #Cleans and transforms data
 import FactorTester as ft #Test factors for suitability in models
 import numpy as np
+#from IPython.core.magic_arguments import runfile
 
 def LoadData(CapRange):
 #CapRange can be All, High, Mid, or Low
@@ -83,27 +85,28 @@ def Run_Lab_1(D,SaveFile):
 
     FA['Price_Book_AP'] 
     ['ICitp']
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/')
-Dall=LoadData('All')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2//ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
-Dall=LoadData('All')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
-Dall= LoadData ('ALL')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
-Dall= LoadData ('ALL')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-Dall=LoadData('All')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-Dall = LoadData('All')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-Dall = LoadData('All')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
-Dall = LoadData('All')
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+    
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/')
+#Dall=LoadData('All')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2//ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
+#Dall=LoadData('All')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
+#Dall= LoadData ('ALL')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2/')
+#Dall= LoadData ('ALL')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#Dall=LoadData('All')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#Dall = LoadData('All')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/ManageData.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#Dall = LoadData('All')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#Dall = LoadData('All')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 
 ###########################################################################################
 import ManageData as md #loads and saves data
@@ -121,7 +124,7 @@ def LoadData(CapRange):
     Success = md.saveproject(D,SaveFile+'.pkl') #Saves the loaded data to a pickel file
     D = md.loadproject(SaveFile+'.pkl')
     return D
-    runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+    #runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 ##############################################################################################################
 ## ---(Mon Nov 20 16:23:19 2023)---
 import pickle as pk
@@ -299,7 +302,7 @@ def loadsavedfile(SaveFile):
     F = pk.load(file)
     print('Loaded from ' + SaveFile)
     return F
-runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+#runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 #############################################################################################################################################
 import ManageData as md #loads and saves data
 import TransformData as td #Cleans and transforms data
@@ -370,17 +373,17 @@ def Run_Lab_1(D,SaveFile):
     FA.keys()
     FA['ICitp']
     FA['Price_Book_AP']
-    runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+    #runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
     NumTile = np.int_(5)
-    runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+    #runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
     FA['Price_Book_AP'] = ft.AnalyzeFactor('Price_Book',TD['Price_Book_AP'],TD['ForwardReturns_AP'],NumTile)
     FA['ICitp'].keys()
     FA['Price_Book_AP'].keys()
     FA['ICitp']
-    '''
+    
     FA['Price_Book_AP']['ICitp']
 
-            ([6.66104644e-01, 1.14284260e-01, 3.37005764e-02, 1.11534910e-01,
+'''            ([6.66104644e-01, 1.14284260e-01, 3.37005764e-02, 1.11534910e-01,
             1.89128057e-01, 1.43831658e-01, 4.68567515e-02, 1.69735981e-01,
             5.93813630e-02, 2.44547252e-03, 6.27103942e-02, 2.06584046e-01,
             1.18828626e-01, 4.27882483e-01, 3.28990942e-04, 5.73740851e-02,
@@ -843,18 +846,17 @@ def Run_Lab_1(D,SaveFile):
      'CumulativeTileReturn_t': array([0.22354213, 0.55393623, 1.14100093, 1.89111285, 3.60766733]),
      'CumulativeTileExcessReturn_t': array([0.22354213, 0.55393623, 1.14100093, 1.89111285, 3.60766733]),
      'ExPostIR_t': array([120.86881609, 168.5455926 , 200.11757721, 182.82753562,
-            142.47971766])}
+            142.47971766])} 
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 
-    runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+NumTile                 = np.int_(5)
 
-    NumTile                 = np.int_(5)
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 
-    runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+FA['Price_Book_AP']     = ft.AnalyzeFactor('Price_Book',TD['Price_Book_AP'],TD['ForwardReturns_AP'],NumTile)
+#/Users/kriti/Downloads/Deepak/Midterm2/FactorTester.py:151: RuntimeWarning: Mean of empty slice
+R['EW_BenchMark_p']                 =   np.nanmean(Returns_AP,axis=0)#equaly weighted mean by period
 
-    FA['Price_Book_AP']     = ft.AnalyzeFactor('Price_Book',TD['Price_Book_AP'],TD['ForwardReturns_AP'],NumTile)
-    /Users/kriti/Downloads/Deepak/Midterm2/FactorTester.py:151: RuntimeWarning: Mean of empty slice
-      R['EW_BenchMark_p']                 =   np.nanmean(Returns_AP,axis=0)#equaly weighted mean by period
-
-    FA['ICitp'].keys()'''
+FA['ICitp'].keys()
     
-
+'''
