@@ -124,7 +124,7 @@ def LoadData(CapRange):
     Success = md.saveproject(D,SaveFile+'.pkl') #Saves the loaded data to a pickel file
     D = md.loadproject(SaveFile+'.pkl')
     return D
-  runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
+runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 ##############################################################################################################
 ## ---(Mon Nov 20 16:23:19 2023)---
 import pickle as pk
@@ -383,7 +383,7 @@ def Run_Lab_1(D,SaveFile):
     
     FA['Price_Book_AP']['ICitp']
 
-          ([6.66104644e-01, 1.14284260e-01, 3.37005764e-02, 1.11534910e-01,
+    ([6.66104644e-01, 1.14284260e-01, 3.37005764e-02, 1.11534910e-01,
             1.89128057e-01, 1.43831658e-01, 4.68567515e-02, 1.69735981e-01,
             5.93813630e-02, 2.44547252e-03, 6.27103942e-02, 2.06584046e-01,
             1.18828626e-01, 4.27882483e-01, 3.28990942e-04, 5.73740851e-02,
@@ -411,10 +411,10 @@ def Run_Lab_1(D,SaveFile):
             1.47187712e-02, 6.18158002e-05, 2.56643909e-03, 2.46120427e-02,
             7.26602592e-02, 8.15872886e-01, 1.72858221e-01,            nan,
                        nan]),
-     'GrandMeanIC': 0.04719828878543253,
-     'GrandStdIC': 0.0719578551854404,
-     'ICitp': 0.655915725445113,
-     'ICdecay_n': array([0.04719829, 0.04604554, 0.04702866, 0.04815873, 0.048025  ,
+      'GrandMeanIC': 0.04719828878543253,
+      'GrandStdIC': 0.0719578551854404,
+      'ICitp': 0.655915725445113,
+      'ICdecay_n': array([0.04719829, 0.04604554, 0.04702866, 0.04815873, 0.048025  ,
             0.04823319, 0.04790066, 0.0454238 , 0.04477693, 0.04131434,
             0.04009083, 0.03740775]),
      'ICdecaySTD_n': array([0.07195786, 0.07083844, 0.06942435, 0.06785857, 0.06727422,
