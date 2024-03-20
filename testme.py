@@ -109,10 +109,10 @@ Dall = LoadData('All')
 runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 
 ###########################################################################################
-import ManageData as md #loads and saves data
-import TransformData as td #Cleans and transforms data
-import FactorTester as ft #Test factors for suitability in models
-import numpy as np
+#import ManageData as md #loads and saves data
+#import TransformData as td #Cleans and transforms data
+#import FactorTester as ft #Test factors for suitability in models
+#import numpy as np
 
 def LoadData(CapRange):
 #CapRange can be All, High, Mid, or Low
@@ -130,10 +130,10 @@ runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdi
 import pickle as pk
 import glob
 import os
-import numpy as np
+#import numpy as np
 from scipy import stats
 #from pandas.stats.api import ols
-from openpyxl import load_workbook
+#from openpyxl import load_workbook
 
 
 #if (__name__ == "__main__"): # Execute when invoked from command line
@@ -304,10 +304,10 @@ def loadsavedfile(SaveFile):
     return F
 runfile('/Users/kriti/Downloads/Deepak/Midterm2/Example_Combine_Factors.py', wdir='/Users/kriti/Downloads/Deepak/Midterm2')
 #############################################################################################################################################
-import ManageData as md #loads and saves data
-import TransformData as td #Cleans and transforms data
-import FactorTester as ft #Test factors for suitability in models
-import numpy as np
+#import ManageData as md #loads and saves data
+#import TransformData as td #Cleans and transforms data
+#import FactorTester as ft #Test factors for suitability in models
+#import numpy as np
 
 def LoadData(CapRange):
 #CapRange can be All, High, Mid, or Low
